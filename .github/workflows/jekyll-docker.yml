@@ -1,9 +1,7 @@
 name: Sample
 on:
   schedule:
-   - cron: '* 3 * * *'
-   - cron: '* 2 * * *'
-   - cron: '* 1 * * *'
+   - cron: '0 8 * * *'
   push:
     branches: 
       - main
