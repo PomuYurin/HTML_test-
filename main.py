@@ -51,5 +51,4 @@ def main():
         print("降水確率が50%未満です。")
 
 if __name__ == "__main__":
-    while True:
         main() 
